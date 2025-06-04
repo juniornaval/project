@@ -1,0 +1,397 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* Ajuste conforme necessário */
+    z-index: 1000; /* Garante que o menu fique sobre outros elementos */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona um efeito sutil */
+}
+
+
+/* Menu */
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.limitar-secao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    height: 55px;
+    margin: 0 auto;
+}
+
+.logo{
+    margin-top: -3px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    align-items: center; 
+}
+
+span{
+    color: rgb(57, 152, 241);
+}
+
+
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.links{
+    padding: 3px 0px 0px 0px;
+    font-family: Arial, sans-serif; 
+}
+
+.links a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+/* Fim do Menu*/
+
+
+/* Background */
+.bg-1{
+   height: 600px; 
+   background-image: url("../assets/img-fundo.jpg");
+  
+}
+
+.bg-2{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 50px 75px;
+}
+
+.bg-ajuste{
+    margin-top: 150px;
+    background-color: rgba(14, 129, 129, 0.568);
+    height: 130px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    border: 2px solid white;
+   
+}
+
+.bg-ajuste h1{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+
+.bg-ajuste p{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+    margin-top: 4vh;
+
+}
+/* Fim do Background */
+
+
+/* Seja bem vindo CARDS */
+.seja-bem-vindo{
+    max-width: 100%;
+    padding: 70px;
+}
+
+.seja-bem-vindo h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.seja-bem-vindo p{
+    display: flex;
+    justify-content: center;
+    max-width: 420px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+}
+
+.quartos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.quartos img{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+.quartos p{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.barrinha{
+    width: 300px;
+    height: 2px;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: black;
+}
+/* Fim do Seja bem vindo CARDS */
+
+
+
+/* Mapa */
+.maps-titulo{
+    max-width: 100%;;
+    padding: 70px;
+
+}
+
+.maps-titulo h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.maps-titulo p{
+    display: flex;
+    justify-content: center;
+    max-width: 420px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Fim do Mapa */
+
+
+
+/* Card sobre a pousada */
+.sobre{
+    max-width: 100%;;
+    padding: 70px;
+}
+
+.sobre h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.sobre p{
+    display: flex;
+    justify-content: center;
+    max-width: 420px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cartao-primario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descricao h2{
+    line-height: 1.8;
+    font-weight: bold;
+}
+
+.descricao p{
+    width: 280px;
+    line-height: 1.2;
+}
+
+.imagem{
+    width: 130px;
+    height: 80px;
+    margin-bottom: 100px;
+    background-color: aliceblue;
+}
+
+.imagem img{
+    width: 130px;
+    height: auto;
+}
+
+.cartao-secundario{
+    width: 100%;
+    min-height: 150px;
+}
+/* fim do Card sobre a pousada */
+
+
+
+
+
+/* Rodapé */
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    background-color: rgb(8, 172, 172);
+}
+
+.h2-footer{
+    margin-top: 10px;
+    padding-left: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: white;
+}
+
+
+.card-icones{
+    display: flex;
+    justify-content: space-around;
+    width: 280px;
+    height: 50px;
+    margin-top: 30px;
+
+}
+
+
+.icones{
+    width: 270px;
+    height: auto;
+  
+}
+
+.icones-ajuste{
+    display: inline-block;
+    justify-content: center;
+    padding-left: 50px;
+    width: 250px;
+}
+
+.paragrafo-ajuste{
+    padding-left: 50px;
+}
+
+.paragrafo-ajuste p{
+    padding-top: 5px;
+}
+
+.card-paragrafo-icone{
+    width: 220px;
+    height: auto;
+    color: white;
+    margin-left: auto;
+    margin-top: -30px;
+}
+
+.barrinha-2{
+
+    width: 1020px;
+    margin-top: 20px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(6, 114, 114);   
+}
+/*Fim do Rodapé */
+
+
+/*Copyright*/
+.copy{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    height: auto;
+    background-color: rgb(8, 172, 172);
+}
+
+.copy p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* Fim do Copyright*/
