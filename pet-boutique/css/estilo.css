@@ -58,7 +58,7 @@ html{
 }
 
 .logo{
-	background: url(../assets/logo.png);
+	background: url(https://juniornaval.github.io/project/pet-boutique/assets/logo.png);
 	background-repeat: no-repeat;
 	background-size: 30px;
 	max-width: 350px;
@@ -92,7 +92,7 @@ html{
 }
 
 .bg-dog{
-	background-image: url("/assets/fig10.jpg");
+	background-image: url("https://juniornaval.github.io/project/pet-boutique/assets/fig10.jpg");
 	background-position: center;
         background-size: cover;
 	margin-top: 10px;
