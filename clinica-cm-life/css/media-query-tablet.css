@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+
+
+/* Estilos para dispositivos móveis - tablet */
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+
+/* background */
+.bg-1{
+	width: 100%;
+	height: 40vh;
+	background-image: url("../assets/recepcao.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+.bg-1 h1{
+   color: #ffffff;
+   text-align: left;
+   font-size: 25px;
+   font-family: "Source Sans Pro", sans-serif;
+   padding-top: 120px;
+   margin: 0 15px;
+  }
+/* Fim do background */
+
+
+
+/* Sobre a Clínica */
+	.sobre-clinica img{
+        display: none;
+
+    }
+/* Fim do Sobre a Clínica */
+
+
+
+/* Especialidades */
+    .especialidades {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+  .especialidades img{
+		width: 400px;
+		height: auto; 
+		transition: transform 0.3s, box-shadow 0.9s;
+		cursor: pointer;
+   }
+
+
+
+   .especialidades figure{
+	   width: 400px;
+	   height: auto;
+	   margin: 20px;
+	   padding-bottom: 20px;
+	   background: white;
+	   box-sizing: border-box;
+	   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.274);     
+   }
+
+
+
+   .especialidades figcaption{
+	   font-family: Source Sans Pro, sans-serif;
+	   font-size: 17px;
+	   color: rgb(65, 63, 63);
+	   text-align: center; 
+	   padding-top: 10px;
+   }
+/* Fim das Especialidades */
+
+
+}
+
+/* Fim dos Estilos para dispositivos móveis - tablet */
+
+
