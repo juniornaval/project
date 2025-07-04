@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+/* Estilos para dispositivos - desktop */
+@media screen and (min-width: 1024px){
+
+
+
+ /* Seção de Especialidades */
+
+.bloco-especialidade img{
+    display: none;
+}
+
+#h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Fim da Seção de Especialidades */
+
+/*Rodapé*/
+ .rodape{
+	padding-top: 50px;
+ }
+
+ .rodape p{
+	font-size: 15px;
+ }
+
+ .topo-logo{
+	 width: 150px;
+	 height: auto;
+ }
+
+  /*Fim do Rodapé*/
+
+}

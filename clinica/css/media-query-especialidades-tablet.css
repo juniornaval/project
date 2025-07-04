@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+/* Estilos para dispositivos móveis - tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+
+
+ /* Seção de Especialidades */
+
+.bloco-especialidade img{
+    display: none;
+
+}
+
+#h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Fim da Seção de Especialidades */
+
+}

@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+/* Estilos para dispositivos - desktop */
+
+@media screen and (min-width: 1024px) {
+
+	/* background */
+ .bg-1{
+	width: 100%;
+	height: 60vh;
+	background-image: url("../assets/recepcao.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+  .bg-1 h1{
+	color: #ffffff;
+	text-align: left;
+	font-size: 35px;
+	line-height: 1.2;
+	font-family: Source Sans Pro, sans-serif;
+	padding-top: 190px;
+	margin: 0 40px;
+  }
+/* Fim do background */
+
+
+
+/* Sobre a Clínica */
+  
+ .sobre h2{
+	font-size: 25px;
+	font-weight: bold;
+  }
+
+  .sobre p{
+	font-size: 20px;
+  }
+
+
+
+  .sobre-clinica h3{
+	font-size: 22px;
+	font-weight: bold;
+  }
+
+
+  .sobre-clinica li{
+	font-size: 17px;
+  }
+
+
+	.sobre-clinica img{
+	  display: none;
+
+	}
+
+/* Fim do Sobre a Clínica */
+
+
+
+
+/* Especialidades */
+    .especialidades {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+	.especialidades-txt h2{
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+
+
+	.especialidades-txt p{
+		font-size: 17px;
+	}
+
+
+
+    .especialidades img{
+		width: 350px;
+		height: auto; 
+		transition: transform 0.3s, box-shadow 0.9s;
+		cursor: pointer;
+   }
+
+
+
+   .especialidades figure{
+	   width: 350px;
+	   height: auto;
+	   margin: 20px;
+	   padding-bottom: 20px;
+	   background: white;
+	   box-sizing: border-box;
+	   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.274);     
+   }
+
+
+
+   .especialidades figcaption{
+	   font-family: Source Sans Pro, sans-serif;
+	   font-size: 17px;
+	   color: rgb(65, 63, 63);
+	   text-align: center; 
+	   padding-top: 10px;
+   }
+/* Fim das Especialidades */
+
+
+
+/*Contato*/
+
+ .ver-horario{
+	 font-size: 17px;
+ }
+
+ .contato p{
+	 font-size: 15px;
+
+ }
+
+
+ .contato h2{
+	 font-size: 25px;
+
+ }
+
+ /*Fim do Contato*/
+ 
+
+
+ /*Rodapé*/
+
+ .topo-logo{
+	 width: 180px;
+	 height: auto;
+ }
+
+ .rodape p{
+	font-size: 15px;
+ }
+
+ .rodape{
+	padding-top: 30px;
+ }
+
+  /*Fim do Rodapé*/
+
+}
+
+
+/* Estilos para dispositivos móveis - desktop */
