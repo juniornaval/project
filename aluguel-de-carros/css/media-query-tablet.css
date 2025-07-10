@@ -6,7 +6,7 @@
 
     /* Logo */
     .logo img {
-        max-width: 140px;
+        max-width: 200px;
         height: auto;
     }
 
@@ -52,15 +52,17 @@
 
 
     .cadastro h2 {
-        margin: 0 0 0 75px;
+        width: 85%;
+        height: auto;
+        left: 0;
         padding-top: 30px;
         padding-bottom: 5px;
     }
 
     .cadastro p {
-        width: 75%;
+        width: 85%;
         height: auto;
-        margin: 0 0 0 75px;
+        left: 0;
         padding-bottom: 5px;
         line-height: 1.2;
     }
