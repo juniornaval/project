@@ -1,12 +1,11 @@
-/* File: css/media-query-tablet.css */
-/* Media Query para Tablets (768px a 1023px) */
+    /* File: css/media-query-desktop.css */
+    /* Media Query para Desktop (a partir de 1024px) */
 
-
-@media screen and (min-width: 768px) and (max-width: 1023px){
-
+@media screen and (min-width: 1024px) {
+    
     /* Logo */
     .logo img {
-        max-width: 140px;
+        max-width: 180px;
         height: auto;
     }
 
@@ -17,7 +16,7 @@
     /* Banner */
 
     .banner {
-        padding: 150px;
+        padding: 230px;
     }
 
     /* Fim Banner */
@@ -25,9 +24,7 @@
 
     /* Sobre */
 
-    .sobre h1 {
-        font-size: 1.8em;
-    }
+
 
     .sobre p:nth-child(2) {
         width: 100%;
@@ -38,11 +35,11 @@
     }
 
     .sobre-imagem img {
-        width: 20%;
+        width: 30%;
     }
 
     .info-p {
-        width: 80%;
+        width: 88%;
     }
 
     /* Fim Sobre */
@@ -52,7 +49,7 @@
 
 
     .cadastro h2 {
-        margin: 0 0 0 75px;
+        margin: 0 0 0 105px;
         padding-top: 30px;
         padding-bottom: 5px;
     }
@@ -60,7 +57,7 @@
     .cadastro p {
         width: 75%;
         height: auto;
-        margin: 0 0 0 75px;
+        margin: 0 0 0 105px;
         padding-bottom: 5px;
         line-height: 1.2;
     }
@@ -79,8 +76,7 @@
     }
 
     .botao-enviar button {
-        width: 85.5%;
-        padding: 10px;
+        width: 83.1%;
     }
 
-    /* Fim Contato */
+}
