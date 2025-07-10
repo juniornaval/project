@@ -1,0 +1,252 @@
+/*  CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Fim do CSS Reset */
+
+/* Logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Fim Logo */
+
+
+/* Banner */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    max-width: 100%;
+    height: auto;
+    background-color: brown;
+    background-image: url('/assets/24.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* Fim Banner */
+
+
+/* Sobre */
+
+.sobre {
+    max-width: 100%;
+    height: auto;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.sobre h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.0em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sobre p:nth-child(2) {
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    height: auto;
+    text-align: center;
+    line-height: 1.4;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.sobre-imagem {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+.sobre-imagem img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.315);
+}
+
+.info-p {
+    width: 58%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    height: auto;
+    text-align: left;
+    line-height: 1.0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Fim Sobre */
+
+
+
+/* Contato */
+
+.contato {
+    max-width: 100%;
+    height: auto;
+    padding: 40px;
+    background-color: #ff3559;
+}
+
+.contato h2 {
+    color: white;
+    text-align: center;
+    font-size: 2.0em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cadastro h2 {
+    width: 53%;
+    height: auto;
+    margin: 15px auto;
+    text-align: left;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cadastro p {
+    width: 53%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 0.2;
+}
+
+
+.cadastro fieldset {
+    width: 50%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #0f0e0e;
+}
+
+.grupo-campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.cadastro legend {
+    font-weight: bold;
+    font-size: 1.3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cadastro select{
+    padding: 10px 290px;
+    border: 1px solid #0f0e0e;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 1em;
+    color: #333;
+}
+
+.botao-enviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.botao-enviar button {
+    padding: 10px 320px;
+    border: none;
+    background-color: #ff3559;
+    color: white;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.botao-enviar button:hover {
+    background-color: #ff1a3d;
+}
+
+/* Fim Contato */
+
+
+/* Footer */
+.rodape {
+    background-color: #ff3559;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+    font-size: 1.2em;
+}
+
+.rodape a {
+    color: white;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    color: #4b0913;
+}
+
+/* Fim Footer */

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alucar - Aluguel de Carros para Viagens e Passeios">
+    <meta name="keywords" content="Aluguel, carros, rent, viagens, passeios">
+    <meta name="author" content="Junior Naval">
+    <link rel="icon" href="/assets/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/media-query-celphone.css" media="(max-width: 767px)">
+    <link rel="stylesheet" href="css/media-query-tablet.css" media="(min-width: 768px) and (max-width: 1023px)">
+    <title>Alucar - Aluguel de Carros</title>
+</head>
+
+<body>
+    <main>
+        <!-- logo -->
+        <header>
+                <div class="logo">
+                    <a href="index.html"><img src="/assets/logo.png" alt="Logo Alucar" title="Alucar - Aluguel de Carros"></a>
+                </div>
+        </header>
+        <!-- fim logo -->
+
+        <!-- Banner -->
+        <section>
+            <div class="banner"> 
+        
+            </div>
+        </section>
+        <!-- Fim Banner -->
+
+        <!-- Sobre -->
+        <section>
+            <div class="sobre">
+                <h1>Sobre a Alucar</h1>
+                <p>Na Alucar, oferecemos uma ampla gama de veículos para atender às suas necessidades de viagem. Se
+                    você está planejando uma viagem de negócios, férias em família ou um passeio romântico, temos o
+                    carro
+                    perfeito para você.
+                    Há 45 anos atuando na área de locação de veículos com segurança e garantia de satisfação. Temos os
+                    melhores preços e modelos do mercado.
+                </p>
+                <div class="sobre-imagem">
+                    <img src="/assets/img1.jpg" alt="uno" title="uno fiat">
+                    <img src="/assets/img2.jpg" alt="triton" title="triton nissan frontier">
+                    <img src="/assets/img3.jpg" alt="gol" title="gol volkswagen">
+                    <img src="/assets/img4.jpg" alt="jeep" title="jeep renegade">
+                    <img src="/assets/img5.jpg" alt="toyota" title="toyota corolla">
+                    <img src="/assets/img6.jpg" alt="spin" title="spin chevrolet">
+                </div>
+                <p class="info-p">| O compromisso da Alucar é com a qualidade.</p>
+                <p class="info-p">| Os melhores carros estão aqui.</p>
+                <p class="info-p">| 24 horas para sua tranquilidade.</p>
+
+            </div>
+        </section>
+        <!-- Fim Sobre -->
+
+        <!-- Contato -->
+        <section>
+            <div class="contato">
+                <h2>Contato</h2>
+            </div>
+
+            <div class="cadastro">
+                <h2>Análise de Cadastro</h2>
+                <p>Preencha o formulário abaixo para que possamos analisar seu cadastro:</p>
+                <p>Se tudo estiver correto, entraremos em contato em breve.</p>
+
+                <form method="post" action="https://www.devmedia.com.br/codigos/formularios/aula9/">
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+
+                        <div class="grupo-campo">
+                            <label>Nome</label>
+                            <input type="text" name="nome" placeholder="digite seu nome" required>
+                        </div>
+
+                        <div class="grupo-campo">
+                            <label>Data de Nascimento</label>
+                            <input type="date" name="data_nascimento" required>
+                        </div>
+
+                        <div class="grupo-campo">
+                            <label>Telefone</label>
+                            <input type="tel" name="telefone" maxlength="11" placeholder="(99) 99999-9999" required>
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>CNH</legend>
+
+                        <div class="grupo-campo">
+                            <label>Número da CNH</label>
+                            <input type="number" name="numero_registro" maxlength="09" placeholder="informe o número da sua CNH" required>
+                        </div>
+
+                        <div class="grupo-campo">
+                            <label>Data de Validade</label>
+                            <input type="date" name="validade" required>
+                        </div>
+
+                    </fieldset>
+
+                    <div>
+                            <fieldset class="grupo-campo">
+                                <legend>Carro</legend>
+
+                                <select name="carro" required>
+                                    <option value="" disabled selected>Selecione o carro</option>
+                                    <optgroup class="opcao" label="Volkswagen">
+                                        <option class="opcao" value="gol">Gol</option>
+                                        <option class="opcao" value="polo">Polo</option>
+                                        <option class="opcao" value="virtus">Virtus</option>
+                                    </optgroup>
+
+                                    <optgroup class="opcao" label="Fiat">
+                                        <option class="opcao" value="fiat grand siena">Grand Siena</option>
+                                        <option class="opcao" value="fiat uno">Uno</option>
+                                        <option class="opcao" value="fiat mobi">Mobi</option>
+                                        <option class="opcao" value="fiat argo">Argo</option>
+                                        <option class="opcao" value="fiat toro">Toro</option>
+                                    </optgroup>
+
+                                    <optgroup class="opcao" label="Nissan">
+                                        <option class="opcao" value="triton">Triton</option>
+                                        <option class="opcao" value="nissan frontier">Nissan Frontier</option>
+                                    </optgroup>
+
+                                    <optgroup class="opcao" label="Lançamentos">
+                                        <option class="opcao" value="renegade">Renegade</option>
+                                        <option class="opcao" value="jeep">Jeep</option>
+                                        <option class="opcao" value="toyota">Toyota</option>
+                                        <option class="opcao" value="spin">Spin</option>
+                                    </optgroup>
+                                </select>
+                            </fieldset>
+                        </div>
+
+                    <div class="botao-enviar">
+                        <button type="submit">Enviar dados</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </section>
+
+        <!-- Fim do Contato -->
+
+        <!-- Footer -->
+        <footer class="rodape">
+            <div class="container">
+                <p>&copy; 2025 Alucar. Todos os direitos reservados. Desenvolvido por: <a
+                        href="https://be.net/juniornaval">Junior Naval</a></p>
+            </div>
+        </footer>
+
+    </main>
+</body>
+
+</html>
