@@ -72,7 +72,7 @@ table {
     max-width: 100%;
     height: auto;
     background-color: brown;
-    background-image: url('/assets/24.webp');
+    background-image: url('../assets/24.webp');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
