@@ -1,0 +1,525 @@
+@charset "UTF-8";
+
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Fim do CSS Reset */
+
+
+/* Logo */
+
+
+.logo {
+    width: 950px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;    
+    padding: 10px;
+}
+
+.logo img {
+    width: 45px;
+    height: auto;
+}
+
+.logo h1 {
+    color: #5d15d1;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px;
+}
+
+/* Fim Logo */
+
+
+
+/* Background Formulário */
+
+.bg-formulario {
+    width: 100%;
+    height: auto;
+    padding: 40px 0 40px 0;
+    background-image: url('../assets/bahia.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* Fim Background Formulário */
+
+
+/* Titulo do Formulário */
+
+.formulario-title {
+    display: flex;
+    align-items: center;
+    max-width: 940px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #5d15d1;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.aviao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 7px;
+}
+
+.aviao img {
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.formulario h2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'arial', sans-serif;
+    padding: 0 20px 15px 0;
+}
+
+/* Fim do Titulo do Formulário */
+
+
+
+/* Formulário area total */
+
+.formulario {
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Fim do Formulário area total */
+
+
+
+/* Formulário inputs nome, email, telefone */
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    padding: 0 0 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-group input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Fim do Formulário inputs nome, email, telefone */
+
+
+
+/* Formulário inputs data */
+
+.form-group-dates {
+  display: flex;
+}
+
+.form-group-dates input{
+  display: flex;
+  width: calc(100% - 10px);
+  height: auto;
+  margin: 0 auto;
+  padding: 2px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-group-dates label{
+  display: flex;
+  margin-bottom: 5px;
+  width: 100px;
+  height: auto;
+  padding: 0 0 5px 0;
+  font-family: Arial, Helvetica, sans-serif;   
+}
+
+.form-group-dates > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+/* Fim do Formulário inputs data */
+
+
+
+/* Formulário inputs select */
+
+.select-group {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.select-label {
+    padding: 0 0 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+select {
+    width: 100%;
+    padding: 0 350px 5px 0;
+    border-radius: 5px;
+}
+
+/* Formulário inputs select */
+
+
+
+/* Formulário radio buttons */
+
+.group-radio{
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="radio"] {
+    transform: scale(1.4);
+}
+
+.form-group-radio {
+    padding: 10px 0 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-group-radio input {
+    margin: 10px 0 10px 6px;
+}
+
+.form-group-radio label {
+    margin-right: 40px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Fim Formulário radio buttons */
+
+
+
+/* Formulário inputs checkbox */
+
+.form-group-cel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.form-group-cel > div:first-child {
+    text-align: left;
+    width: 100%;
+}
+
+.form-group-cel input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.4);
+}
+
+/* Fim Formulário inputs checkbox */
+
+
+
+/* Formulário Botão */
+
+.btn {
+    background-color: #5d15d1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #4a12a6;  
+}
+
+/* Fim do Formulário Botão */
+
+
+/* Ofertas */
+
+.ofertas-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 777px;
+    margin: 0 auto;
+}
+
+.ofertas-title h2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'arial', sans-serif;
+    padding: 20px 0 10px 0;
+}
+
+.ofertas-title p {
+    font-size: 15px;
+    font-family: 'arial', sans-serif;
+    padding: 0 0 10px 0;
+}
+
+.ofertas-title span {
+    font-size: 15px;
+    font-family: 'arial', sans-serif;
+    font-weight: bold;
+}
+
+
+.explorar-natureza{
+    width: 100%;
+    height: auto;
+}
+
+.ofertas {
+    width: 100%;
+    height: auto;
+}
+
+.ofertas-geral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.figure-rj {
+    position: relative;
+    margin: 0;
+}
+
+
+.figure-rj img{
+    width: 325px;
+    height: auto;
+    display: block;
+}
+
+.figure-img-geral {
+    position: relative;
+    margin: 0;
+}
+
+
+.figure-img-geral img {
+    width: 100%;
+    height: 116px;
+    object-fit: cover;
+    display: block;
+}
+
+.ofertas-grid {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ofertas-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.figure-rj figcaption,
+.figure-img-geral figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.733);
+    padding: 8px 10px;
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Fim de Ofertas */
+
+
+
+/* Explorar a Natureza */
+
+.container-explorar-natureza {
+    width: 78%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;  
+}
+
+
+
+.container-figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0 auto;
+}
+
+
+.figure-natureza img {
+    width: 383px;
+    height: auto;
+    padding-left: 9px;
+}
+
+
+.container-figure-info h3 {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 8px;
+}
+
+
+.container-figure-info p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+}
+
+
+/* Fim do Explorar a Natureza */
+
+
+
+
+/* Rodapé */
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #4a12a6;
+    margin-top: 50px;
+}
+
+
+
+.contatos h4, .redes-sociais h4 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.contatos p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.contatos img {
+    width: 20px;
+    height: auto;
+}
+
+.sub-contato {
+    display: flex;
+    padding: 5px;
+}
+
+.sub-contato p {
+    margin-left: 10px;
+    padding-top: 6px;
+}
+
+.contato-geral {
+    width: 790px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    margin-left: 264px;
+}
+
+
+/*Fim do Rodapé */
+
+

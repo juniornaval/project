@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+
+/* Estilos para dispositivos móveis - celular */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+
+html {
+        overflow-x: hidden;
+    }    
+
+
+ /* Logo */
+
+    .logo {
+        width: 730px;
+        height: auto;
+    }
+
+    .logo img {
+        width: 35px;
+        height: auto;
+    }
+
+    .logo h1 {
+        font-size: 20px;
+        margin: 2px;
+    }
+
+/* Fim Logo */
+
+
+
+/* Titulo do Formulário */
+    
+    .formulario-title {
+        width: 730px;
+    }
+
+
+    .aviao h2 {
+        font-weight: 400;
+    }
+
+/* Fim do Titulo do Formulário */
+
+
+/* Formulário area total */
+
+   .formulario {
+        max-width: 690px;
+        height: auto;
+   }
+
+/*Fim Formulário area total */  
+
+
+
+/* Formulário inputs data */
+
+    .form-group-dates {
+        display: flex;
+        flex-direction: row;
+    }
+
+/* Fim Formulário inputs data */
+
+
+
+/* Formulário inputs select */
+
+    .select-group {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    select {
+        padding: 0 9px 5px 0;
+        margin: 0 220px 5px 0;
+
+}
+
+/* Fim Formulário inputs select */
+
+
+
+
+/* Botão */
+
+   .btn {
+    width: 690px;
+    height: auto;
+   }
+
+/* Fim do Botão */ 
+
+
+
+/* Ofertas */
+
+   .ofertas-grid {
+    display: flex;
+    flex-direction: column;
+   }
+    
+
+   .figure-rj img {
+    width: 600px;
+    height: 230px;
+    object-fit: cover;
+
+   }
+
+   .ofertas-grid-2 {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .ofertas-grid-2 img {
+    width: 600px;
+    height: 230px;
+    object-fit: cover;
+   }
+
+
+   .ofertas-title {
+    width: 600px;
+   }
+
+
+/* Fim de Ofertas */ 
+
+
+/* Explorar a Natureza */
+
+    .ofertas-title-cel {
+        width: 600px;
+        padding-top: 20px;
+    }
+
+    .figure-natureza img {
+        width: 598px;
+        margin: 0 auto;
+        height: auto;
+        object-fit: cover;
+    }
+
+/* Explorar a Natureza */
+
+
+
+/* Rodapé */
+
+   .contato-geral {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: auto;
+        margin: 0 auto;
+   }
+
+
+   .contatos{
+       width: 300px;
+       margin: 0 auto;
+   }
+
+
+
+   .redes-sociais {
+        padding: 30px;
+        margin: 0 auto;
+    }
+
+
+    .redes-sociais h4 {
+        margin-left: 8px;
+
+    }
+
+
+    /* Fim do Rodapé */
+
+
+}
+
+
