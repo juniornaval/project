@@ -4,190 +4,151 @@
 /* Estilos para dispositivos móveis - celular */
 
 @media screen and (max-width: 767px) {
-
-/* Logo */
-
+    /* Ajustes gerais */
     html {
         overflow-x: hidden;
     }
-
+    
+    /* Logo */
+    .logo {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
     .logo img {
         width: 35px;
         height: auto;
     }
-
+    
     .logo h1 {
         font-size: 20px;
         margin: 2px;
     }
-
-/* Fim Logo */
-
-
-
-/* Titulo do Formulário */
     
+    /* Formulário */
     .formulario-title {
-        width: 430px;
+        width: 100%;
+        box-sizing: border-box;
     }
-
-
+    
     .aviao h2 {
         font-weight: 400;
+        font-size: 18px;
     }
-
-/* Fim do Titulo do Formulário */
-
-
-/* Formulário area total */
-
-   .formulario {
-        max-width: 390px;
-        height: auto;
-   }
-
-/*Fim Formulário area total */  
-
-
-
-/* Formulário inputs data */
-
+    
+    .formulario {
+        max-width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    
+    /* Grupos de inputs */
+    .form-group, 
+    .form-group-dates, 
+    .select-group,
+    .form-group-radio {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    /* Inputs de data */
     .form-group-dates {
-        display: flex;
         flex-direction: column;
     }
-
-/* Fim Formulário inputs data */
-
-
-
-/* Formulário inputs select */
-
+    
+    .form-group-dates > div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    /* Selects */
     .select-group {
-        display: flex;
         flex-direction: column;
+        gap: 15px;
     }
-
-
+    
     select {
-        padding: 0 0 5px 0;
-
-}
-
-/* Fim Formulário inputs select */
-
-
-
-/* Formulário radio buttons */
-
-    .form-group-radio{
-        display: flex;
+        width: 100%;
+        padding: 8px 5px;
+        box-sizing: border-box;
+    }
+    
+    /* Radio buttons */
+    .form-group-radio {
         flex-direction: column;
     }
-
+    
     .group-radio-cel {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 5px;
+    }
+    
+    /* Checkboxes */
+    .form-group-cel {
+        flex-direction: column;
+    }
+    
+    .checkbox-container {
         display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 5px;
+    }
+    
+    .form-group-cel > div:first-child {
+        margin-bottom: 5px;
+    }
+    
+    /* Botão */
+    .btn {
+        width: 100%;
+        padding: 12px;
+        box-sizing: border-box;
+    }
+    
+    /* Ofertas */
+    .ofertas-title {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    
+    .ofertas-grid, 
+    .ofertas-grid-2 {
         flex-direction: column;
         width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
     }
-
-/* Fim Formulário radio buttons */
-
-
-
-/* Formulário checkbox */
-
-  .form-group-cel, .checkbox-container {
-        display: flex;
-        flex-direction: column;
-        
-  }
-
-/* Fim Formulário checkbox */  
-   
-
-
-/* Botão */
-
-   .btn {
-    width: 390px;
-    height: auto;
-   }
-
-/* Fim do Botão */ 
-
-
-
-/* Ofertas */
-
-   .ofertas-grid {
-    display: flex;
-    flex-direction: column;
-   }
     
-
-   .figure-rj img {
-    width: 300px;
-    height: 130px;
-    object-fit: cover;
-
-   }
-
-   .ofertas-grid-2 {
-    display: flex;
-    flex-direction: column;
-   }
-
-
-   .ofertas-title {
-    width: 300px;
-   }
-
-
-/* Fim de Ofertas */ 
-
-
-/* Explorar a Natureza */
-
-    .ofertas-title-cel {
-        width: 350px;
+    .figure-rj img,
+    .figure-img-geral img {
+        width: 100%;
+        height: auto;
+        max-height: 200px;
     }
-
-/* Explorar a Natureza */
-
-
-
-/* Rodapé */
-
-   .contato-geral {
-        display: flex;
+    
+    /* Rodapé */
+    .contato-geral {
         flex-direction: column;
-
-   }
-
-
-   .contatos{
-       width: 400px;
-       margin-left: 100px;
-   }
-
-
-
-   .redes-sociais {
-        padding: 30px;
-        margin-left: -33px;
+        width: 100%;
+        padding: 20px 15px;
     }
-
-
+    
+    .contatos,
+    .redes-sociais {
+        width: 100%;
+        margin: 0;
+        padding: 10px 0;
+    }
+    
     .redes-sociais h4 {
-        margin-left: 108px;
-
+        margin-left: 0;
     }
-
-
-    /* Fim do Rodapé */
-
-
+    
+    .sub-contato {
+        margin-bottom: 10px;
+    }
 }
-
-
