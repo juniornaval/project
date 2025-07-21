@@ -117,20 +117,32 @@
     
     .ofertas-grid, 
     .ofertas-grid-2 {
+        display: flex;
         flex-direction: column;
         width: 100%;
         padding: 0 15px;
         box-sizing: border-box;
     }
     
-    .figure-rj img,
-    .figure-img-geral img {
+
+    .figure-img-geral img, .figure-rj img {
         width: 100%;
         height: auto;
         max-height: 200px;
     }
+
+
+    /* Explorar a Natureza */
+
+    .container-explorar-natureza {
+        width: 100%;
+        height: auto;
+
+    }
+
     
     /* Rodapé */
+    
     .contato-geral {
         flex-direction: column;
         width: 100%;
@@ -144,11 +156,21 @@
         padding: 10px 0;
     }
     
-    .redes-sociais h4 {
-        margin-left: 0;
+    .redes-sociais h4, .contatos h4 {
+        width: 55%;
+        margin: 0 auto;
+    }
+
+    .sub-contato img[src*="email.png"] {
+        width: 28px;
+        height: 25px;
+
     }
     
     .sub-contato {
+        width: 55%;
         margin-bottom: 10px;
+        margin: 0 auto;
     }
+
 }
