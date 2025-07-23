@@ -123,13 +123,31 @@
         padding: 0 15px;
         box-sizing: border-box;
     }
+
     
 
-    .figure-img-geral img, .figure-rj img {
+     .figure-img-geral img {
         width: 100%;
         height: auto;
         max-height: 200px;
+    } 
+
+    .figure-rj img {
+        width: 93%;
+        height: auto;
+        max-height: 200px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+        display: block;
     }
+
+
+    .figure-rj figcaption {
+        width: 89%;
+        padding: 8px 10px;
+        margin: 0 auto;
+   }
+
 
 
     /* Explorar a Natureza */
@@ -143,6 +161,7 @@
         margin-left: 40px;
     }
 
+   
     
     /* Rodapé */
     
